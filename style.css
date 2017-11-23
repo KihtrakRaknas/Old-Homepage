@@ -1,24 +1,32 @@
+body{
+	margin: 0;
+}
+
 #heading{
 	background-color: #d3d3d350;
 	position: sticky;
 	top: 0px;
-	text-align: center;
-	margin: 0 auto;
+	text-align: left;
 }
 #title{
-
-	
+	background-color: white;
+	border:#d3d3d350;
+	font-size: 40px;
+	border-radius: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 .button{
 	text-align: center;
-	border: solid;
-	margin: 0 auto;
-	padding: 0 7px;
+	color: black;
+	margin: 0 20px 0 0;
+	padding: 4px 5px;
 	display: inline-block;
-	
+	border-radius: 6px 6px 0 0;
 }
-p{
-	font-size: 18px;
-border: solid;
-padding-right: 10px;
+.button:hover{
+	background-color: white;
+}
+.content{
+	margin: 10px;
 }
