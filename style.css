@@ -1,6 +1,24 @@
-h1{
+#heading{
+	background-color: #d3d3d350;
+	position: sticky;
+	top: 0px;
 	text-align: center;
+	margin: 0 auto;
+}
+#title{
+
+	
+}
+.button{
+	text-align: center;
+	border: solid;
+	margin: 0 auto;
+	padding: 0 7px;
+	display: inline-block;
+	
 }
 p{
 	font-size: 18px;
+border: solid;
+padding-right: 10px;
 }
